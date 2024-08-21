@@ -32,4 +32,4 @@ public:
 	~Stock();									// 파괴자
 };
 
-#endif
+#endif  // !STOCK_17_1_H 
