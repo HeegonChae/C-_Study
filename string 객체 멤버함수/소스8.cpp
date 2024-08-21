@@ -8,10 +8,12 @@ int main() {
 	string ref = "hee";
 	
 	// length() 멤버함수
-	size_t length = name.length();
+	size_t length = name.length();  
+	
 	// find() 멤버함수
 	size_t found_idx1 = name.find(part, 0);	
 	size_t found_idx2 = name.find(ref, found_idx1 + 1);
+	
 	// substr() 멤버함수
 	string subtext = name.substr(7, 5);		
 
