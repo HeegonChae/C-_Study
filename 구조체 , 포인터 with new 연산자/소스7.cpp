@@ -5,7 +5,8 @@ using namespace std;
 
 struct Mysturct {
 	char name[20];
-	//string name;  // 널문자가 'age' 변수로 들어감
+	//string name;  // 널문자가 int형 'age' 변수에 들어감. cin.getline(); 필요 이유.
+
 	int age;
 };
 
