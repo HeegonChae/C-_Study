@@ -14,8 +14,8 @@ int main() {
 
 	cout << "size of int: " << sizeof(int) << '\n';		// 4바이트
 	cout << "size of arr: " << sizeof(arr) << '\n';		// 4*8 바이트
-	cout << "size of &arr: " << sizeof(&arr) << '\n';   // 포인터 크기: 8바이트
-	cout << "size of *arr: " << sizeof(*arr) << '\n';   // 4바이트
+	cout << "size of &arr: " << sizeof(&arr) << '\n';       // 포인터 크기: 8바이트
+	cout << "size of *arr: " << sizeof(*arr) << '\n';       // 4바이트
 	cout << "arr[0]: " << *(arr) << '\n';
 	cout << "전체 합은 : " << ans << '\n';
 	cout << "중간까지 합은: " << ans2 << '\n';
