@@ -1,10 +1,6 @@
 # include "stock_17-1.h"
 
-// 사용 범위 결정 연산자(::)
-//	: 'Stock' 클래스의 사용 범위에 귀속된 함수임을 알려줌
-//  : 파이썬에서 'self.~' 역할
-
-// 생성자 역할
+// 사용자 정의 생성자
 Stock::Stock(string NAME, int num, float VALUE)
 {
 	name = NAME;
@@ -12,6 +8,7 @@ Stock::Stock(string NAME, int num, float VALUE)
 	share_val = VALUE;
 	cal(shares, share_val);
 }
+
 // new 디폴트 생성자 by 오버로딩
 Stock::Stock()
 {
