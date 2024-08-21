@@ -2,11 +2,11 @@
 
 int main() {
 
-	// 1. 클래스 선언
-	Stock temp;										// Stock *temp;
+	// 클래스 선언
+	Stock temp;						// or Stock *temp;
 
 	// 'Stock' 클래스 멤버 참조('.' or '->')
-	temp.acquire("Chae", 10, 1000);				// temp->acquire; or (*temp).acquire;
+	temp.acquire("Chae", 10, 1000);				// or temp->acquire; & (*temp).acquire;
 	temp.show();
 
 	temp.update(900);
