@@ -8,12 +8,12 @@ using namespace std;
 */
 int main()
 {
-	short month[12] = { 1, 2, 3 };					// 0000004BFED0FA28
+	short month[12] = { 1, 2, 3 };				
 	short* year;
 
 	year = month;
 
-	cout << month << "\n";
+	cout << month << "\n";                                          // 주소값 = 0000004BFED0FA28
 	cout << sizeof(month) << "\n";					// 배열 메모리 상 크기: short 자료형 x 12 = 24
 	cout << sizeof(month) / sizeof(short) << "\n"; 
 	cout << year << "\n";
