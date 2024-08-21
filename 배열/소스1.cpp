@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+ 
 /* 
    1. 배열은 다른 배열에 통째로 대입 불가
    2. 단, 포인터로 선언시 배열(의 주소) 대입 가능
