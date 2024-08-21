@@ -1,5 +1,4 @@
 # include "struct.h"
-//# include "new.h"
 
 int main() {
 	MyInfo Heegon = {
