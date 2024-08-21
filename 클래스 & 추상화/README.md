@@ -27,6 +27,12 @@
 
 ### 3. 자동 할당으로 클래스 생성자 선언
 * 클래스 객체를 표준 객체 사용하듯 함수 사용 없이 선언 by **클래스 생성자**
+  ```
+    int a = 4
+    Stock temp = Stock("Heegon", 100, 1000);
+  ```
 * **함수 오버로딩**　통한　디폴트　클래스　생성자
-  * ex. int a = 4
-  * ex. **Stock temp = Stock("Heegon", 100, 1000);**
+  ```
+    Stock(string, int, float);    // by 오버로딩
+    Stock();
+  ```
