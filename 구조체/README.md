@@ -17,3 +17,19 @@
     * 해결방법)
       * <b>구조체의 포인터(주소값)</b>으로 전달 시, **구조체의 멤버 전달('->')**
       * cf) 소스7.cpp
+       ```
+       struct Time {
+          	int hours;
+          	int mins;
+        };
+       Time Mysum(Time* T1, Time* T2);
+
+      int main() {
+      	Time day1 = { 5, 45 };
+      	Time day2 = { 4, 55 };
+      
+      	// 구조체 함수 파라미터로 전달: 구조체의 포인터값 전달
+      	Time ans = Mysum(&day1, &day2);
+       }
+       ```
+       
